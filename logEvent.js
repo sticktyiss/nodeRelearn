@@ -17,3 +17,5 @@ const logEvents = async (msg) => {
         console.error(theseHands);
     }
 }
+// Don't forget to export
+module.exports = logEvents;
